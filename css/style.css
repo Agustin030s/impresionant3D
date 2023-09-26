@@ -1,0 +1,26 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.carouselProductos{
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Error */
+.error-container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error-code{
+    font-size: 120px;
+    font-weight: bold;
+    color: #dc3545;
+}
