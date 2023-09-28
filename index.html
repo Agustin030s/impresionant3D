@@ -147,7 +147,7 @@
               <img src="./img/Amarillo-800x800.jpg" class="card-img-top" alt="filamento amarillo">
               <div class="card-body">
                 <h5 class="card-title text-center">Filamento Amarillo</h5>
-                <button class="btn btn-primary w-100">Ver más</button>
+                <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalFilamentoAmarillo">Ver más</button>
               </div>
             </div>
           </div>
@@ -247,6 +247,28 @@
             <img src="./img/Ecofila-Random-480x295.jpg" class="img-fluid mb-3" alt="filamento ecofila random">
             <p class="lead">¿Estas seguro que deseas comprar este producto?</p>
             <p><b>Precio:</b> $5000</p>
+            <label for="cantidadProducto"><b>Cantidad:</b></label>
+            <input type="number" id="cantidadProducto">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" disabled>Finalizar Compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ventana Modal de filamento amarillo-->
+    <div class="modal fade" id="modalFilamentoAmarillo" tabindex="-1" aria-labelledby="modalFilamentoAmarilloLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="modalFilamentoAmarilloLabel">Ecofila Random</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./img/Amarillo-800x800.jpg" class="img-fluid mb-3" alt="filamento amarillo">
+            <p class="lead">¿Estas seguro que deseas comprar este producto?</p>
+            <p><b>Precio:</b> $3500</p>
             <label for="cantidadProducto"><b>Cantidad:</b></label>
             <input type="number" id="cantidadProducto">
           </div>
